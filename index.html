@@ -9,11 +9,12 @@
     <script src="appCtrl.js" ></script>
     <script src="jspdf.js" ></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
 
   <body ng-controller="appCtrl" class="container">
     <h1>Inventario</h1>
 
-    <form ng-submit="addItem(newItem)">
+    <form ng-submit="addItem(newItem)" novalidate>
 
   <table class="table table-striped">
     <thead class="thead-inverse">
